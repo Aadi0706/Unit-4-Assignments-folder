@@ -1,0 +1,2430 @@
+db.movies.find({movie_name:{$eq:"Man Who Laughs, The"}}).pretty()
+{
+        "_id" : ObjectId("6228b37b5442451e89767868"),
+        "id" : "574",
+        "movie_name" : "Man Who Laughs, The",
+        "production_year" : 1992,
+        "budget" : "$17668.40",
+        "movie_genre" : "Drama|Romance"
+}
+
+
+> db.movies.find({movie_name:{$ne:"Man Who Laughs, The"}}).pretty()
+{
+        "_id" : ObjectId("6228b37b5442451e8976775f"),
+        "id" : "6",
+        "movie_name" : "Second Woman, The",
+        "production_year" : 2012,
+        "budget" : "$14208.28",
+        "movie_genre" : "Drama|Film-Noir|Mystery"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767760"),
+        "id" : "33937",
+        "movie_name" : "Tree Grows in Brooklyn, A",
+        "production_year" : 1992,
+        "budget" : "$12970.87",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767761"),
+        "id" : "9377",
+        "movie_name" : "Hillbillys in a Haunted House",
+        "production_year" : 2003,
+        "budget" : "$13826.33",
+        "movie_genre" : "Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767762"),
+        "id" : "00",
+        "movie_name" : "This Property is Condemned",
+        "production_year" : 1988,
+        "budget" : "$10022.78",
+        "movie_genre" : "Drama|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767763"),
+        "id" : "281",
+        "movie_name" : "Enforcer, The",
+        "production_year" : 1997,
+        "budget" : "$15929.45",
+        "movie_genre" : "Crime|Drama|Film-Noir"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767764"),
+        "id" : "6753",
+        "movie_name" : "Christmas Carol, A (Scrooge)",
+        "production_year" : 1995,
+        "budget" : "$13750.62",
+        "movie_genre" : "Drama|Fantasy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767765"),
+        "id" : "323",
+        "movie_name" : "Eagle vs Shark",
+        "production_year" : 2004,
+        "budget" : "$15005.84",
+        "movie_genre" : "Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767766"),
+        "id" : "24409",
+        "movie_name" : "Birdcage Inn (Paran daemun)",
+        "production_year" : 1988,
+        "budget" : "$16742.30",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767767"),
+        "id" : "9",
+        "movie_name" : "Atonement",
+        "production_year" : 2007,
+        "budget" : "$10843.53",
+        "movie_genre" : "Drama|Romance|War"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767768"),
+        "id" : "9",
+        "movie_name" : "Cell, The",
+        "production_year" : 2011,
+        "budget" : "$16002.20",
+        "movie_genre" : "Drama|Horror|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767769"),
+        "id" : "920",
+        "movie_name" : "Lucia",
+        "production_year" : 2000,
+        "budget" : "$14660.01",
+        "movie_genre" : "Drama|Romance|Sci-Fi|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776a"),
+        "id" : "44858",
+        "movie_name" : "Her Highness and the Bellboy",
+        "production_year" : 2005,
+        "budget" : "$9342.34",
+        "movie_genre" : "Comedy|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776b"),
+        "id" : "0749",
+        "movie_name" : "Mad City",
+        "production_year" : 1994,
+        "budget" : "$12951.88",
+        "movie_genre" : "Action|Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776c"),
+        "id" : "96796",
+        "movie_name" : "Funny Games",
+        "production_year" : 2000,
+        "budget" : "$12615.52",
+        "movie_genre" : "Drama|Horror|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776d"),
+        "id" : "379",
+        "movie_name" : "Maximum Overdrive",
+        "production_year" : 1989,
+        "budget" : "$11657.21",
+        "movie_genre" : "Horror"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776e"),
+        "id" : "40729",
+        "movie_name" : "Ingmar Bergman on Life and Work (Ingmar Bergman: Om liv och arbete)",
+        "production_year" : 2003,
+        "budget" : "$11511.73",
+        "movie_genre" : "Documentary"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776f"),
+        "id" : "226",
+        "movie_name" : "Dr. Jekyll and Ms. Hyde",
+        "production_year" : 2001,
+        "budget" : "$13198.58",
+        "movie_genre" : "Comedy|Horror"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767770"),
+        "id" : "30",
+        "movie_name" : "Everybody's Fine",
+        "production_year" : 2003,
+        "budget" : "$12844.35",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767771"),
+        "id" : "54352",
+        "movie_name" : "Phil Ochs: There But for Fortune",
+        "production_year" : 1998,
+        "budget" : "$19588.22",
+        "movie_genre" : "Documentary|Musical"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767772"),
+        "id" : "202",
+        "movie_name" : "Three Ages",
+        "production_year" : 1992,
+        "budget" : "$10156.78",
+        "movie_genre" : "Comedy"
+}
+Type "it" for more
+
+
+> db.movies.find({budget:{$gte:"$10156.78"}}).pretty()
+{
+        "_id" : ObjectId("6228b37b5442451e8976775f"),
+        "id" : "6",
+        "movie_name" : "Second Woman, The",
+        "production_year" : 2012,
+        "budget" : "$14208.28",
+        "movie_genre" : "Drama|Film-Noir|Mystery"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767760"),
+        "id" : "33937",
+        "movie_name" : "Tree Grows in Brooklyn, A",
+        "production_year" : 1992,
+        "budget" : "$12970.87",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767761"),
+        "id" : "9377",
+        "movie_name" : "Hillbillys in a Haunted House",
+        "production_year" : 2003,
+        "budget" : "$13826.33",
+        "movie_genre" : "Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767763"),
+        "id" : "281",
+        "movie_name" : "Enforcer, The",
+        "production_year" : 1997,
+        "budget" : "$15929.45",
+        "movie_genre" : "Crime|Drama|Film-Noir"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767764"),
+        "id" : "6753",
+        "movie_name" : "Christmas Carol, A (Scrooge)",
+        "production_year" : 1995,
+        "budget" : "$13750.62",
+        "movie_genre" : "Drama|Fantasy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767765"),
+        "id" : "323",
+        "movie_name" : "Eagle vs Shark",
+        "production_year" : 2004,
+        "budget" : "$15005.84",
+        "movie_genre" : "Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767766"),
+        "id" : "24409",
+        "movie_name" : "Birdcage Inn (Paran daemun)",
+        "production_year" : 1988,
+        "budget" : "$16742.30",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767767"),
+        "id" : "9",
+        "movie_name" : "Atonement",
+        "production_year" : 2007,
+        "budget" : "$10843.53",
+        "movie_genre" : "Drama|Romance|War"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767768"),
+        "id" : "9",
+        "movie_name" : "Cell, The",
+        "production_year" : 2011,
+        "budget" : "$16002.20",
+        "movie_genre" : "Drama|Horror|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767769"),
+        "id" : "920",
+        "movie_name" : "Lucia",
+        "production_year" : 2000,
+        "budget" : "$14660.01",
+        "movie_genre" : "Drama|Romance|Sci-Fi|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776a"),
+        "id" : "44858",
+        "movie_name" : "Her Highness and the Bellboy",
+        "production_year" : 2005,
+        "budget" : "$9342.34",
+        "movie_genre" : "Comedy|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776b"),
+        "id" : "0749",
+        "movie_name" : "Mad City",
+        "production_year" : 1994,
+        "budget" : "$12951.88",
+        "movie_genre" : "Action|Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776c"),
+        "id" : "96796",
+        "movie_name" : "Funny Games",
+        "production_year" : 2000,
+        "budget" : "$12615.52",
+        "movie_genre" : "Drama|Horror|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776d"),
+        "id" : "379",
+        "movie_name" : "Maximum Overdrive",
+        "production_year" : 1989,
+        "budget" : "$11657.21",
+        "movie_genre" : "Horror"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776e"),
+        "id" : "40729",
+        "movie_name" : "Ingmar Bergman on Life and Work (Ingmar Bergman: Om liv och arbete)",
+        "production_year" : 2003,
+        "budget" : "$11511.73",
+        "movie_genre" : "Documentary"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776f"),
+        "id" : "226",
+        "movie_name" : "Dr. Jekyll and Ms. Hyde",
+        "production_year" : 2001,
+        "budget" : "$13198.58",
+        "movie_genre" : "Comedy|Horror"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767770"),
+        "id" : "30",
+        "movie_name" : "Everybody's Fine",
+        "production_year" : 2003,
+        "budget" : "$12844.35",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767771"),
+        "id" : "54352",
+        "movie_name" : "Phil Ochs: There But for Fortune",
+        "production_year" : 1998,
+        "budget" : "$19588.22",
+        "movie_genre" : "Documentary|Musical"
+}
+
+
+db.movies.find({budget:{$lte:"$14000"}}).pretty()
+{
+        "_id" : ObjectId("6228b37b5442451e89767760"),
+        "id" : "33937",
+        "movie_name" : "Tree Grows in Brooklyn, A",
+        "production_year" : 1992,
+        "budget" : "$12970.87",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767761"),
+        "id" : "9377",
+        "movie_name" : "Hillbillys in a Haunted House",
+        "production_year" : 2003,
+        "budget" : "$13826.33",
+        "movie_genre" : "Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767762"),
+        "id" : "00",
+        "movie_name" : "This Property is Condemned",
+        "production_year" : 1988,
+        "budget" : "$10022.78",
+        "movie_genre" : "Drama|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767764"),
+        "id" : "6753",
+        "movie_name" : "Christmas Carol, A (Scrooge)",
+        "production_year" : 1995,
+        "budget" : "$13750.62",
+        "movie_genre" : "Drama|Fantasy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767767"),
+        "id" : "9",
+        "movie_name" : "Atonement",
+        "production_year" : 2007,
+        "budget" : "$10843.53",
+        "movie_genre" : "Drama|Romance|War"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776b"),
+        "id" : "0749",
+        "movie_name" : "Mad City",
+        "production_year" : 1994,
+        "budget" : "$12951.88",
+        "movie_genre" : "Action|Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776c"),
+        "id" : "96796",
+        "movie_name" : "Funny Games",
+        "production_year" : 2000,
+        "budget" : "$12615.52",
+        "movie_genre" : "Drama|Horror|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776d"),
+        "id" : "379",
+        "movie_name" : "Maximum Overdrive",
+        "production_year" : 1989,
+        "budget" : "$11657.21",
+        "movie_genre" : "Horror"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776e"),
+        "id" : "40729",
+        "movie_name" : "Ingmar Bergman on Life and Work (Ingmar Bergman: Om liv och arbete)",
+        "production_year" : 2003,
+        "budget" : "$11511.73",
+        "movie_genre" : "Documentary"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776f"),
+        "id" : "226",
+        "movie_name" : "Dr. Jekyll and Ms. Hyde",
+        "production_year" : 2001,
+        "budget" : "$13198.58",
+        "movie_genre" : "Comedy|Horror"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767770"),
+        "id" : "30",
+        "movie_name" : "Everybody's Fine",
+        "production_year" : 2003,
+        "budget" : "$12844.35",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767772"),
+        "id" : "202",
+        "movie_name" : "Three Ages",
+        "production_year" : 1992,
+        "budget" : "$10156.78",
+        "movie_genre" : "Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767776"),
+        "id" : "81",
+        "movie_name" : "Samson & Sally",
+        "production_year" : 1991,
+        "budget" : "$11129.47",
+        "movie_genre" : "Animation|Children|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767779"),
+        "id" : "71187",
+        "movie_name" : "Adventures of Kitty O'Day (Kitty O'Day Comes Through)",
+        "production_year" : 1990,
+        "budget" : "$13952.68",
+        "movie_genre" : "Comedy|Crime|Mystery|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976777e"),
+        "id" : "27",
+        "movie_name" : "Taxi 2",
+        "production_year" : 2004,
+        "budget" : "$10658.38",
+        "movie_genre" : "Action|Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767780"),
+        "id" : "70",
+        "movie_name" : "Möbius",
+        "production_year" : 1984,
+        "budget" : "$11039.24",
+        "movie_genre" : "Drama|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767784"),
+        "id" : "45",
+        "movie_name" : "More Than a Game",
+        "production_year" : 2013,
+        "budget" : "$13693.66",
+        "movie_genre" : "Documentary"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767785"),
+        "id" : "44",
+        "movie_name" : "Dune",
+        "production_year" : 2005,
+        "budget" : "$10139.38",
+        "movie_genre" : "Drama|Fantasy|Sci-Fi"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767786"),
+        "id" : "2940",
+        "movie_name" : "Face to Face (Ansikte mot ansikte)",
+        "production_year" : 2006,
+        "budget" : "$10434.25",
+        "movie_genre" : "Drama|Fantasy|Horror|Mystery"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767789"),
+        "id" : "0",
+        "movie_name" : "Audrey Rose",
+        "production_year" : 2004,
+        "budget" : "$11355.37",
+        "movie_genre" : "Horror"
+}
+Type "it" for more
+
+
+> db.movies.find({$and:[{production_year:{$gte:2000}},{budget:{$gte:"$10000"}}]}).pretty()
+{
+        "_id" : ObjectId("6228b37b5442451e8976775f"),
+        "id" : "6",
+        "movie_name" : "Second Woman, The",
+        "production_year" : 2012,
+        "budget" : "$14208.28",
+        "movie_genre" : "Drama|Film-Noir|Mystery"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767761"),
+        "id" : "9377",
+        "movie_name" : "Hillbillys in a Haunted House",
+        "production_year" : 2003,
+        "budget" : "$13826.33",
+        "movie_genre" : "Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767765"),
+        "id" : "323",
+        "movie_name" : "Eagle vs Shark",
+        "production_year" : 2004,
+        "budget" : "$15005.84",
+        "movie_genre" : "Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767767"),
+        "id" : "9",
+        "movie_name" : "Atonement",
+        "production_year" : 2007,
+        "budget" : "$10843.53",
+        "movie_genre" : "Drama|Romance|War"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767768"),
+        "id" : "9",
+        "movie_name" : "Cell, The",
+        "production_year" : 2011,
+        "budget" : "$16002.20",
+        "movie_genre" : "Drama|Horror|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767769"),
+        "id" : "920",
+        "movie_name" : "Lucia",
+        "production_year" : 2000,
+        "budget" : "$14660.01",
+        "movie_genre" : "Drama|Romance|Sci-Fi|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776a"),
+        "id" : "44858",
+        "movie_name" : "Her Highness and the Bellboy",
+        "production_year" : 2005,
+        "budget" : "$9342.34",
+        "movie_genre" : "Comedy|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776c"),
+        "id" : "96796",
+        "movie_name" : "Funny Games",
+        "production_year" : 2000,
+        "budget" : "$12615.52",
+        "movie_genre" : "Drama|Horror|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776e"),
+        "id" : "40729",
+        "movie_name" : "Ingmar Bergman on Life and Work (Ingmar Bergman: Om liv och arbete)",
+        "production_year" : 2003,
+        "budget" : "$11511.73",
+        "movie_genre" : "Documentary"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776f"),
+        "id" : "226",
+        "movie_name" : "Dr. Jekyll and Ms. Hyde",
+        "production_year" : 2001,
+        "budget" : "$13198.58",
+        "movie_genre" : "Comedy|Horror"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767770"),
+        "id" : "30",
+        "movie_name" : "Everybody's Fine",
+        "production_year" : 2003,
+        "budget" : "$12844.35",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767778"),
+        "id" : "5525",
+        "movie_name" : "California Solo",
+        "production_year" : 2012,
+        "budget" : "$19590.56",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976777b"),
+        "id" : "3268",
+        "movie_name" : "The Killers",
+        "production_year" : 2001,
+        "budget" : "$17307.71",
+        "movie_genre" : "Crime"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976777d"),
+        "id" : "95",
+        "movie_name" : "Wassup Rockers",
+        "production_year" : 2005,
+        "budget" : "$15029.85",
+        "movie_genre" : "Comedy|Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976777e"),
+        "id" : "27",
+        "movie_name" : "Taxi 2",
+        "production_year" : 2004,
+        "budget" : "$10658.38",
+        "movie_genre" : "Action|Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976777f"),
+        "id" : "3312",
+        "movie_name" : "Beautiful Joe",
+        "production_year" : 2005,
+        "budget" : "$17925.33",
+        "movie_genre" : "Comedy|Drama|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767782"),
+        "id" : "7",
+        "movie_name" : "Steel Magnolias",
+        "production_year" : 2010,
+        "budget" : "$14345.36",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767784"),
+        "id" : "45",
+        "movie_name" : "More Than a Game",
+        "production_year" : 2013,
+        "budget" : "$13693.66",
+        "movie_genre" : "Documentary"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767785"),
+        "id" : "44",
+        "movie_name" : "Dune",
+        "production_year" : 2005,
+        "budget" : "$10139.38",
+        "movie_genre" : "Drama|Fantasy|Sci-Fi"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767786"),
+        "id" : "2940",
+        "movie_name" : "Face to Face (Ansikte mot ansikte)",
+        "production_year" : 2006,
+        "budget" : "$10434.25",
+        "movie_genre" : "Drama|Fantasy|Horror|Mystery"
+}
+Type "it" for more
+>
+
+>
+> db.movies.find({$or:[{production_year:{$gte:2000}},{budget:{$gte:"$10000"}}]}).pretty()
+{
+        "_id" : ObjectId("6228b37b5442451e8976775f"),
+        "id" : "6",
+        "movie_name" : "Second Woman, The",
+        "production_year" : 2012,
+        "budget" : "$14208.28",
+        "movie_genre" : "Drama|Film-Noir|Mystery"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767760"),
+        "id" : "33937",
+        "movie_name" : "Tree Grows in Brooklyn, A",
+        "production_year" : 1992,
+        "budget" : "$12970.87",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767761"),
+        "id" : "9377",
+        "movie_name" : "Hillbillys in a Haunted House",
+        "production_year" : 2003,
+        "budget" : "$13826.33",
+        "movie_genre" : "Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767762"),
+        "id" : "00",
+        "movie_name" : "This Property is Condemned",
+        "production_year" : 1988,
+        "budget" : "$10022.78",
+        "movie_genre" : "Drama|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767763"),
+        "id" : "281",
+        "movie_name" : "Enforcer, The",
+        "production_year" : 1997,
+        "budget" : "$15929.45",
+        "movie_genre" : "Crime|Drama|Film-Noir"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767764"),
+        "id" : "6753",
+        "movie_name" : "Christmas Carol, A (Scrooge)",
+        "production_year" : 1995,
+        "budget" : "$13750.62",
+        "movie_genre" : "Drama|Fantasy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767765"),
+        "id" : "323",
+        "movie_name" : "Eagle vs Shark",
+        "production_year" : 2004,
+        "budget" : "$15005.84",
+        "movie_genre" : "Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767766"),
+        "id" : "24409",
+        "movie_name" : "Birdcage Inn (Paran daemun)",
+        "production_year" : 1988,
+        "budget" : "$16742.30",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767767"),
+        "id" : "9",
+        "movie_name" : "Atonement",
+        "production_year" : 2007,
+        "budget" : "$10843.53",
+        "movie_genre" : "Drama|Romance|War"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767768"),
+        "id" : "9",
+        "movie_name" : "Cell, The",
+        "production_year" : 2011,
+        "budget" : "$16002.20",
+        "movie_genre" : "Drama|Horror|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767769"),
+        "id" : "920",
+        "movie_name" : "Lucia",
+        "production_year" : 2000,
+        "budget" : "$14660.01",
+        "movie_genre" : "Drama|Romance|Sci-Fi|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776a"),
+        "id" : "44858",
+        "movie_name" : "Her Highness and the Bellboy",
+        "production_year" : 2005,
+        "budget" : "$9342.34",
+        "movie_genre" : "Comedy|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776b"),
+        "id" : "0749",
+        "movie_name" : "Mad City",
+        "production_year" : 1994,
+        "budget" : "$12951.88",
+        "movie_genre" : "Action|Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776c"),
+        "id" : "96796",
+        "movie_name" : "Funny Games",
+        "production_year" : 2000,
+        "budget" : "$12615.52",
+        "movie_genre" : "Drama|Horror|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776d"),
+        "id" : "379",
+        "movie_name" : "Maximum Overdrive",
+        "production_year" : 1989,
+        "budget" : "$11657.21",
+        "movie_genre" : "Horror"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776e"),
+        "id" : "40729",
+        "movie_name" : "Ingmar Bergman on Life and Work (Ingmar Bergman: Om liv och arbete)",
+        "production_year" : 2003,
+        "budget" : "$11511.73",
+        "movie_genre" : "Documentary"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776f"),
+        "id" : "226",
+        "movie_name" : "Dr. Jekyll and Ms. Hyde",
+        "production_year" : 2001,
+        "budget" : "$13198.58",
+        "movie_genre" : "Comedy|Horror"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767770"),
+        "id" : "30",
+        "movie_name" : "Everybody's Fine",
+        "production_year" : 2003,
+        "budget" : "$12844.35",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767771"),
+        "id" : "54352",
+        "movie_name" : "Phil Ochs: There But for Fortune",
+        "production_year" : 1998,
+        "budget" : "$19588.22",
+        "movie_genre" : "Documentary|Musical"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767772"),
+        "id" : "202",
+        "movie_name" : "Three Ages",
+        "production_year" : 1992,
+        "budget" : "$10156.78",
+        "movie_genre" : "Comedy"
+}
+Type "it" for more
+>
+
+ db.movies.find({$nor:[{production_year:{$gte:2000}},{budget:{$gte:"$13000"}}]}).pretty()
+{
+        "_id" : ObjectId("6228b37b5442451e89767760"),
+        "id" : "33937",
+        "movie_name" : "Tree Grows in Brooklyn, A",
+        "production_year" : 1992,
+        "budget" : "$12970.87",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767762"),
+        "id" : "00",
+        "movie_name" : "This Property is Condemned",
+        "production_year" : 1988,
+        "budget" : "$10022.78",
+        "movie_genre" : "Drama|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776b"),
+        "id" : "0749",
+        "movie_name" : "Mad City",
+        "production_year" : 1994,
+        "budget" : "$12951.88",
+        "movie_genre" : "Action|Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776d"),
+        "id" : "379",
+        "movie_name" : "Maximum Overdrive",
+        "production_year" : 1989,
+        "budget" : "$11657.21",
+        "movie_genre" : "Horror"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767772"),
+        "id" : "202",
+        "movie_name" : "Three Ages",
+        "production_year" : 1992,
+        "budget" : "$10156.78",
+        "movie_genre" : "Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767776"),
+        "id" : "81",
+        "movie_name" : "Samson & Sally",
+        "production_year" : 1991,
+        "budget" : "$11129.47",
+        "movie_genre" : "Animation|Children|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767780"),
+        "id" : "70",
+        "movie_name" : "Möbius",
+        "production_year" : 1984,
+        "budget" : "$11039.24",
+        "movie_genre" : "Drama|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976778c"),
+        "id" : "212",
+        "movie_name" : "Decalogue, The (Dekalog)",
+        "production_year" : 1992,
+        "budget" : "$10132.96",
+        "movie_genre" : "Crime|Drama|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767792"),
+        "id" : "2376",
+        "movie_name" : "Striptease",
+        "production_year" : 1988,
+        "budget" : "$12236.40",
+        "movie_genre" : "Comedy|Crime"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767799"),
+        "id" : "0",
+        "movie_name" : "Sweetwater",
+        "production_year" : 1999,
+        "budget" : "$12250.16",
+        "movie_genre" : "Thriller|Western"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976779e"),
+        "id" : "35322",
+        "movie_name" : "White God (Fehér isten)",
+        "production_year" : 1987,
+        "budget" : "$11277.31",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e897677a1"),
+        "id" : "24",
+        "movie_name" : "Tears of Steel",
+        "production_year" : 1995,
+        "budget" : "$10308.28",
+        "movie_genre" : "Sci-Fi"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e897677aa"),
+        "id" : "041",
+        "movie_name" : "Jalla! Jalla!",
+        "production_year" : 1998,
+        "budget" : "$12117.61",
+        "movie_genre" : "Comedy|Drama|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e897677bb"),
+        "id" : "7",
+        "movie_name" : "Saint John of Las Vegas",
+        "production_year" : 1996,
+        "budget" : "$12114.07",
+        "movie_genre" : "Comedy|Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e897677bc"),
+        "id" : "04",
+        "movie_name" : "Unknown",
+        "production_year" : 1993,
+        "budget" : "$11988.65",
+        "movie_genre" : "Drama|Mystery|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e897677be"),
+        "id" : "623",
+        "movie_name" : "Deadly Blessing",
+        "production_year" : 1994,
+        "budget" : "$10160.51",
+        "movie_genre" : "Horror"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e897677c8"),
+        "id" : "472",
+        "movie_name" : "Gray Lady Down",
+        "production_year" : 1997,
+        "budget" : "$11704.23",
+        "movie_genre" : "Drama|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e897677c9"),
+        "id" : "2852",
+        "movie_name" : "Echelon Conspiracy",
+        "production_year" : 1999,
+        "budget" : "$12478.56",
+        "movie_genre" : "Action|Mystery|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e897677cc"),
+        "id" : "5536",
+        "movie_name" : "U Turn",
+        "production_year" : 1998,
+        "budget" : "$12033.59",
+        "movie_genre" : "Crime|Drama|Mystery"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e897677d3"),
+        "id" : "68",
+        "movie_name" : "My Blue Heaven",
+        "production_year" : 1995,
+        "budget" : "$10069.58",
+        "movie_genre" : "Comedy"
+}
+Type "it" for more
+>
+
+> db.movies.find({$and:[{production_year:{$gte:2000}},{production_year:{$lte:2010}}]}).pretty()
+{
+        "_id" : ObjectId("6228b37b5442451e89767761"),
+        "id" : "9377",
+        "movie_name" : "Hillbillys in a Haunted House",
+        "production_year" : 2003,
+        "budget" : "$13826.33",
+        "movie_genre" : "Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767765"),
+        "id" : "323",
+        "movie_name" : "Eagle vs Shark",
+        "production_year" : 2004,
+        "budget" : "$15005.84",
+        "movie_genre" : "Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767767"),
+        "id" : "9",
+        "movie_name" : "Atonement",
+        "production_year" : 2007,
+        "budget" : "$10843.53",
+        "movie_genre" : "Drama|Romance|War"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767769"),
+        "id" : "920",
+        "movie_name" : "Lucia",
+        "production_year" : 2000,
+        "budget" : "$14660.01",
+        "movie_genre" : "Drama|Romance|Sci-Fi|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776a"),
+        "id" : "44858",
+        "movie_name" : "Her Highness and the Bellboy",
+        "production_year" : 2005,
+        "budget" : "$9342.34",
+        "movie_genre" : "Comedy|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776c"),
+        "id" : "96796",
+        "movie_name" : "Funny Games",
+        "production_year" : 2000,
+        "budget" : "$12615.52",
+        "movie_genre" : "Drama|Horror|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776e"),
+        "id" : "40729",
+        "movie_name" : "Ingmar Bergman on Life and Work (Ingmar Bergman: Om liv och arbete)",
+        "production_year" : 2003,
+        "budget" : "$11511.73",
+        "movie_genre" : "Documentary"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776f"),
+        "id" : "226",
+        "movie_name" : "Dr. Jekyll and Ms. Hyde",
+        "production_year" : 2001,
+        "budget" : "$13198.58",
+        "movie_genre" : "Comedy|Horror"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767770"),
+        "id" : "30",
+        "movie_name" : "Everybody's Fine",
+        "production_year" : 2003,
+        "budget" : "$12844.35",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976777b"),
+        "id" : "3268",
+        "movie_name" : "The Killers",
+        "production_year" : 2001,
+        "budget" : "$17307.71",
+        "movie_genre" : "Crime"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976777d"),
+        "id" : "95",
+        "movie_name" : "Wassup Rockers",
+        "production_year" : 2005,
+        "budget" : "$15029.85",
+        "movie_genre" : "Comedy|Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976777e"),
+        "id" : "27",
+        "movie_name" : "Taxi 2",
+        "production_year" : 2004,
+        "budget" : "$10658.38",
+        "movie_genre" : "Action|Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976777f"),
+        "id" : "3312",
+        "movie_name" : "Beautiful Joe",
+        "production_year" : 2005,
+        "budget" : "$17925.33",
+        "movie_genre" : "Comedy|Drama|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767782"),
+        "id" : "7",
+        "movie_name" : "Steel Magnolias",
+        "production_year" : 2010,
+        "budget" : "$14345.36",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767785"),
+        "id" : "44",
+        "movie_name" : "Dune",
+        "production_year" : 2005,
+        "budget" : "$10139.38",
+        "movie_genre" : "Drama|Fantasy|Sci-Fi"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767786"),
+        "id" : "2940",
+        "movie_name" : "Face to Face (Ansikte mot ansikte)",
+        "production_year" : 2006,
+        "budget" : "$10434.25",
+        "movie_genre" : "Drama|Fantasy|Horror|Mystery"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767789"),
+        "id" : "0",
+        "movie_name" : "Audrey Rose",
+        "production_year" : 2004,
+        "budget" : "$11355.37",
+        "movie_genre" : "Horror"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976778b"),
+        "id" : "54434",
+        "movie_name" : "Accident on Hill Road",
+        "production_year" : 2005,
+        "budget" : "$12994.99",
+        "movie_genre" : "Crime|Drama|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976778d"),
+        "id" : "623",
+        "movie_name" : "The First Movie",
+        "production_year" : 2006,
+        "budget" : "$12530.74",
+        "movie_genre" : "Documentary"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976778e"),
+        "id" : "4593",
+        "movie_name" : "Valentino",
+        "production_year" : 2003,
+        "budget" : "$10107.81",
+        "movie_genre" : "Drama"
+}
+Type "it" for more
+>
+
+db.movies.find({}).sort({"production_year":-1,movie_name:1}).pretty()
+{
+        "_id" : ObjectId("6228b37b5442451e897678de"),
+        "id" : "9",
+        "movie_name" : "11'09\"01 - September 11",
+        "production_year" : 2013,
+        "budget" : "$17736.68",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767822"),
+        "id" : "774",
+        "movie_name" : "Dark Forces (Harlequin)",
+        "production_year" : 2013,
+        "budget" : "$12747.82",
+        "movie_genre" : "Drama|Fantasy|Mystery"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976792d"),
+        "id" : "0",
+        "movie_name" : "Hunter, The",
+        "production_year" : 2013,
+        "budget" : "$19354.00",
+        "movie_genre" : "Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e897678e3"),
+        "id" : "02",
+        "movie_name" : "Joshua",
+        "production_year" : 2013,
+        "budget" : "$9527.59",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767784"),
+        "id" : "45",
+        "movie_name" : "More Than a Game",
+        "production_year" : 2013,
+        "budget" : "$13693.66",
+        "movie_genre" : "Documentary"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767933"),
+        "id" : "119",
+        "movie_name" : "Simon Says",
+        "production_year" : 2013,
+        "budget" : "$17765.19",
+        "movie_genre" : "Horror"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976794d"),
+        "id" : "7",
+        "movie_name" : "Alucarda",
+        "production_year" : 2012,
+        "budget" : "$9841.42",
+        "movie_genre" : "Horror|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767854"),
+        "id" : "4",
+        "movie_name" : "Boot Camp",
+        "production_year" : 2012,
+        "budget" : "$17805.57",
+        "movie_genre" : "Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976778f"),
+        "id" : "2",
+        "movie_name" : "Boy Who Could Fly, The",
+        "production_year" : 2012,
+        "budget" : "$15951.04",
+        "movie_genre" : "Drama|Fantasy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767778"),
+        "id" : "5525",
+        "movie_name" : "California Solo",
+        "production_year" : 2012,
+        "budget" : "$19590.56",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976793f"),
+        "id" : "43398",
+        "movie_name" : "Confession, The",
+        "production_year" : 2012,
+        "budget" : "$10959.68",
+        "movie_genre" : "Drama|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e897677e3"),
+        "id" : "4",
+        "movie_name" : "Down to the Bone",
+        "production_year" : 2012,
+        "budget" : "$10838.53",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e897677f4"),
+        "id" : "2126",
+        "movie_name" : "Evilspeak",
+        "production_year" : 2012,
+        "budget" : "$14339.43",
+        "movie_genre" : "Horror|Sci-Fi"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976792e"),
+        "id" : "3",
+        "movie_name" : "How She Move",
+        "production_year" : 2012,
+        "budget" : "$12842.38",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767790"),
+        "id" : "7",
+        "movie_name" : "Justin Bieber: Never Say Never",
+        "production_year" : 2012,
+        "budget" : "$13347.81",
+        "movie_genre" : "Documentary"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976779b"),
+        "id" : "66",
+        "movie_name" : "Legend, The (Legend of Fong Sai-Yuk, The) (Fong Sai Yuk)",
+        "production_year" : 2012,
+        "budget" : "$14891.78",
+        "movie_genre" : "Action|Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767815"),
+        "id" : "2",
+        "movie_name" : "Like It Is",
+        "production_year" : 2012,
+        "budget" : "$13767.84",
+        "movie_genre" : "Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e897677ce"),
+        "id" : "051",
+        "movie_name" : "Mask of Fu Manchu, The",
+        "production_year" : 2012,
+        "budget" : "$15913.69",
+        "movie_genre" : "Adventure|Horror|Sci-Fi"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e897678fb"),
+        "id" : "92",
+        "movie_name" : "Money Pit, The",
+        "production_year" : 2012,
+        "budget" : "$19038.04",
+        "movie_genre" : "Comedy"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e89767937"),
+        "id" : "51806",
+        "movie_name" : "Pandaemonium",
+        "production_year" : 2012,
+        "budget" : "$18178.14",
+        "movie_genre" : "Drama"
+}
+Type "it" for more
+>
+
+//Query 10
+db.movies.find({}).skip(10).limit(5).pretty()
+{
+        "_id" : ObjectId("6228b37b5442451e89767769"),
+        "id" : "920",
+        "movie_name" : "Lucia",
+        "production_year" : 2000,
+        "budget" : "$14660.01",
+        "movie_genre" : "Drama|Romance|Sci-Fi|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776a"),
+        "id" : "44858",
+        "movie_name" : "Her Highness and the Bellboy",
+        "production_year" : 2005,
+        "budget" : "$9342.34",
+        "movie_genre" : "Comedy|Romance"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776b"),
+        "id" : "0749",
+        "movie_name" : "Mad City",
+        "production_year" : 1994,
+        "budget" : "$12951.88",
+        "movie_genre" : "Action|Drama"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776c"),
+        "id" : "96796",
+        "movie_name" : "Funny Games",
+        "production_year" : 2000,
+        "budget" : "$12615.52",
+        "movie_genre" : "Drama|Horror|Thriller"
+}
+{
+        "_id" : ObjectId("6228b37b5442451e8976776d"),
+        "id" : "379",
+        "movie_name" : "Maximum Overdrive",
+        "production_year" : 1989,
+        "budget" : "$11657.21",
+        "movie_genre" : "Horror"
+}
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
